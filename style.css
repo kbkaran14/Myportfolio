@@ -1,0 +1,218 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: url(./images/background.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.box{
+  width: 500px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 4rem;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1{
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease;
+} 
+
+.box h1:hover{
+  color: #7fffd4;
+}
+
+.box h4{
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 100;
+} 
+
+.box h3{
+  color: #7fffd4;
+}
+
+.icon{
+  color: #ffffff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.icon:hover{
+  color: #7FFFD4;
+}
+
+section{
+  padding: 6rem 0;
+  margin: 0 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.objective h1{
+  color: #7fffd4;
+  margin-bottom: 3rem;
+}
+
+.objective p span{
+  color: #7fffd4;
+  font-size: 4rem;
+}
+
+.objective p{
+  color: #ffffff;
+  font-family: 'Lato', sans-serif; 
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.objective p:hover{
+  color: #7fffd4;
+}
+
+.objective p:hover span{
+  color: #ffffff;
+}
+
+.education h1{
+  color: #7fffd4;
+  margin-bottom: 6rem;
+}
+
+section.education .wrapper{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 3rem;
+}
+
+section.education .wrapper .block{
+  background: white;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+}
+
+section.education .wrapper .block h2{
+  font-size: 1.5rem;
+}
+
+section.education .wrapper .block h4{
+  font-weight: 600;
+}
+
+section.education .wrapper .block p{
+  font-family: 'Lato', sans-serif; 
+  letter-spacing: 2px;
+}
+
+section.education .wrapper .block p span{
+  font-weight: 600;
+}
+
+section.education .wrapper .block:hover{
+  background: #7fffd4;
+} 
+
+.projects h1{
+  color: #7fffd4;
+  margin-bottom: 6rem;
+}
+
+section.projects .wrapper{
+  display: grid;
+  grid-row-gap: 6rem;
+}
+
+section.projects .wrapper .block{
+  background: white;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+}
+
+section.projects .wrapper .block h2{
+  font-size: 1.5rem;
+}
+
+section.projects .wrapper .block p{
+  font-family: 'Lato', sans-serif; 
+  letter-spacing: 2px;
+}
+
+section.projects .wrapper .block p span{
+  font-weight: 600;
+}
+
+section.projects .wrapper .block:hover{
+  background: #7fffd4;
+}
+
+.accomplishments h1{
+  color: #7fffd4;
+  margin-bottom: 3rem;
+}
+
+.accomplishments p span{
+  color: #7fffd4;
+  font-size: 4rem;
+}
+
+.accomplishments p{
+  color: #ffffff;
+  font-family: 'Lato', sans-serif; 
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.accomplishments p:hover{
+  color: #7fffd4;
+}
+
+.accomplishments p:hover span{
+  color: #ffffff;
+}
+
+.skills h1{
+  color: #7fffd4;
+  margin-bottom: 6rem;
+}
+
+section.skills .wrapper{
+  display: grid;
+  grid-row-gap: 6rem;
+}
+
+section.skills .wrapper .block{
+  background: white;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+}
+
+section.skills .wrapper .block h2{
+  font-size: 1.5rem;
+}
+
+section.skills .wrapper .block p{
+  font-family: 'Lato', sans-serif; 
+  letter-spacing: 2px;
+}
+
+section.skills .wrapper .block p span{
+  font-weight: 600;
+}
+
+section.skills .wrapper .block:hover{
+  background: #7fffd4;
+}
